@@ -141,23 +141,49 @@ I digitale kretser representerer høy spenning (for eksempel 5V) en "1", mens la
 <a name="del8"></a>
 ## TRANSISTORER
 
+Transistorer er essensielle komponenter i moderne elektronikk, brukt til forsterkning av signaler og som brytere i digitale og analoge kretser. Ved å regulere strømmen gjennom en transistor kan man kontrollere og manipulere elektriske signaler på en effektiv måte.
+
+**NMOS-transistor:** Når en positiv spenning påføres gaten, tiltrekkes elektroner til området under gaten, som skaper en ledende kanal mellom drain og source, og strøm kan flyte.
+
+**PMOS-transistor:** Når en negativ spenning påføres gaten, tiltrekkes hull til området under gaten, som skaper en ledende kanal mellom source og drain, og strøm kan flyte.
+
 <a name="del9"></a>
 ## LOGISKE BYGGEKLOSSER
+
+Grunnleggende ez digitallogikk
 
 <a name="del10"></a>
 ## RESISTIVE KRETSER
 
+Modell av høytaleranlegg
+
 <a name="del11"></a>
 ## SUPERPOSISJONSPRINSIPPET
+
+Takket være linalg kan man matematisk modellere elektriske kretser. Fra dette får vi superposisjonsprinsippet. (Fungerer på samme måte som i mek)
+
 
 <a name="del12"></a>
 ## THÉVENINS TEOREM
 
+**Thévenins teorem** sier at hvis du har en lineær krets som er delt i to deler, la oss kalle dem "Krets 1" og "Krets 2", og de to delene er koblet sammen på bare to punkter (punkt A og B), så kan du erstatte "Krets 1" med en enklere ekvivalent krets uten at det påvirker "Krets 2". 
+
+Denne enklere ekvivalente kretsen består av to ting:
+1. En spenningskilde \( V_0 \), som er spenningen du ville ha målt over punktene A og B hvis "Krets 2" var fjernet.
+2. En motstand \( R_0 \), som er den motstanden du ville ha målt mellom punktene A og B hvis "Krets 2" var fjernet og alle kildene i "Krets 1" var slått av (spenningskilder kortsluttet og strømkilder åpnet).
+
+Denne Thévenin-ekvivalente kretsen vil oppføre seg på nøyaktig samme måte som den opprinnelige "Krets 1" når den er koblet til "Krets 2".
+
+Dette betyr at i stedet for å arbeide med en komplisert krets, kan du redusere den til en enkelt spenningskilde og en motstand i serie, noe som gjør det mye enklere å analysere og forstå kretsen.
+
+
 <a name="del13"></a>
 ## ENERGIKILDER
 
+
 <a name="del14"></a>
 ## MINNE OG REGISTER
+
 
 <a name="del15"></a>
 ## REAKTIVE ELEMENT
